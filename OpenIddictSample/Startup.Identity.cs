@@ -97,7 +97,6 @@ namespace OpenIddictSample
                        .EnableTokenEndpointPassthrough();
                 });
 
-            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             JwtSecurityTokenHandler.DefaultOutboundClaimTypeMap.Clear();
 
             services.AddAuthentication(x =>
